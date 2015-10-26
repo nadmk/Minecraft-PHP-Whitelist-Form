@@ -7,12 +7,12 @@ $subject ="Minecraft Server Whitelist Request";
 $message="Name: $name \nUsername: $username \nEmail $email ";
 $mail_from="$email";
 $header="from: $name <$mail_from>";
-$to ='nikospower1999@gmail.com'; //Change E-Mail
+$to ='YOUREMAIL'; //Change E-Mail
  
 if (!$username || !$name || !$email ){
 echo '<script script type="text/javascript">';
 echo 'alert("Error: Empy field(s)!");';
-echo 'window.location.href ="http://mc.nicktehpro.xyz";'; //Change website 
+echo 'window.location.href ="YOURWEBSITE";'; //Change website 
 echo '</script>';
 
 }
@@ -20,7 +20,7 @@ else{
 mail($to,$subject,$message,$header);
 echo '<script script type="text/javascript">';
 echo 'alert("Ok! We got your request. Please be patient!");';
-echo 'window.location.href ="http://mc.nicktehpro.xyz";'; //Change website 
+echo 'window.location.href ="YOURWEBSITE";'; //Change website 
 echo '</script>';
 
 }

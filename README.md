@@ -14,7 +14,7 @@ sudo apt-get install apache2 php5
 Cloning & editing the files:
 git clone git://github.com/NickTehPro/Minecraft-PHP-Whitelist-Request.git MPWR //Clone the repository 
 cp /MPWR/ /var/www/ //Copy the files 
-nano send_mail.php //Change the E-Mail and your website.
+nano send_mail.php //Change the email and website value
 
 Apache Setup:
 
