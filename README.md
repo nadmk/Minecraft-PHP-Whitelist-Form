@@ -2,9 +2,9 @@
 
 A php script that allows you to take Whitelist requests for your minecraft server via E-Mail.
 
-# Setup
+## Setup
 
-##Linux: 
+###Linux
 ```
 Prepare OS:
 sudo apt-get update
@@ -22,5 +22,13 @@ cd ~
 cd /etc/apache2/sites-enabled/
 nano 000* //Change the location from /var/www/html/ to /var/www/MPWR/
 service apache2 reload
-```
 DONE!
+```
+
+## Contributing
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
