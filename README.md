@@ -4,7 +4,7 @@ A php script that allows you to take Whitelist requests for your minecraft serve
 
 # Setup
 
-Linux: 
+##Linux: 
 ```
 Prepare OS:
 sudo apt-get update
