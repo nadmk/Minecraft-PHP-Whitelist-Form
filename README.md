@@ -6,7 +6,7 @@ A php script that allows you to take Whitelist requests for your minecraft serve
 
 Linux: 
 
-Prepare OS:
+`Prepare OS:
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install apache2 php5 
@@ -23,4 +23,4 @@ cd /etc/apache2/sites-enabled/
 nano 000* //Change the location from /var/www/html/ to /var/www/MPWR/
 service apache2 reload
 
-DONE!
+DONE!`
